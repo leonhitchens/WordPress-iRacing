@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "iracing-racing-stats/racing-dashboard",
+	"version": "1.0.0",
+	"title": "iRacing Racing Dashboard",
+	"category": "widgets",
+	"icon": "flag",
+	"description": "Display your full iRacing stats dashboard powered by Garage61.",
+	"keywords": ["iracing", "racing", "stats", "garage61"],
+	"textdomain": "iracing-racing-stats",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	}
+}

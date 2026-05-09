@@ -1,0 +1,30 @@
+.iracing-editor-placeholder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 40px 24px;
+	background: #0f1117;
+	border: 2px dashed #3a3f4b;
+	border-radius: 8px;
+	text-align: center;
+	min-height: 160px;
+}
+
+.iracing-editor-placeholder__icon {
+	font-size: 36px;
+	line-height: 1;
+}
+
+.iracing-editor-placeholder__label {
+	font-size: 16px;
+	font-weight: 600;
+	color: #e8eaed;
+}
+
+.iracing-editor-placeholder__hint {
+	font-size: 13px;
+	color: #8b95a5;
+	max-width: 400px;
+}
